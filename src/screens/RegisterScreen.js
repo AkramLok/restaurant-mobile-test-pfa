@@ -10,7 +10,7 @@ import { emailValidator } from "../helpers/emailValidator";
 import { passwordValidator } from "../helpers/passwordValidator";
 import { nameValidator } from "../helpers/nameValidator";
 import { phoneValidator } from "../helpers/phoneValidator";
-import AuthService from "../services/auth.service"; // Import the register function
+import AuthService from "../services/auth.service";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 
 export default function RegisterScreen({ navigation }) {
@@ -44,8 +44,9 @@ export default function RegisterScreen({ navigation }) {
 
   const onSignUpPressed = async () => {
     try {
-      await AuthService.register(username, email, password, name, phone, [
-        "user",
+      //------------------CHANGE ROLE TO MOD (its waiter in our case)--------------------------------------
+      await AuthService.register(username, email, password, name, phone, 1, [
+        "mod",
       ]);
       // Registration successful, navigate to Dashboard or login screen
       setMessage("Registration successful");
