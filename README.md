@@ -1,8 +1,14 @@
-# React Native Expo Login
+# React Native Expo Login For Restaurant (Login Test of Client & Waiter)
 
-A simple React Native Expo Login template starter app.  
+A simple React Native Expo Login template starter app.
 
 ![all-screens](screenshots/all-screens.png)
+
+## Front Links :
+  #### Backend API (Spring Boot): [Restaurant Backend API](https://github.com/AkramLok/restaurant-backend-pfa)
+  #### Front Website (for Owners) : [Restaurant Frontend Web](https://github.com/AkramLok/restaurant-frontend-web-pfa)
+  #### Mobile application (for Clients) : [Restaurant Moble APP](https://github.com/AkramLok/restaurant-mobile-pfa) - [Restaurant Moble APP2](https://github.com/oussama-krittel/pfa-client-mobile-app )
+  
 
 ## About 
 
